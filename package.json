@@ -1,0 +1,30 @@
+{
+  "name": "@tuxjs/core",
+  "version": "1.0.0",
+  "description": "Inversion of control container for JavaScript, Typescript",
+  "main": "bin/index.js",
+  "scripts": {
+    "clean": "vnrm ./bin",
+    "build": "npm run clean && tsc",
+    "test": "npm run clean && tsc && node bin/test.js"
+  },
+  "author": "TuxJS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxjs/tuxjs.core.git"
+  },
+  "keywords": [
+    "IOC",
+    "DI",
+    "injection",
+    "injectable",
+    "javascript"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.5.3",
+    "vnrm": "0.0.11"
+  }
+}
